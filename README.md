@@ -9,6 +9,7 @@ Original Images: Images containing photobombed objects.
 Ground Truth Images: Images with photobombed objects removed using editing tools.
 binary masks: Binary images containing the mask around the photobombed objects.
 The dataset was preprocessed to ensure consistency in size and format. Images were resized and normalized for training.
+dataset was taken from kaggle and can be found <a href = "https://www.kaggle.com/datasets/vatsapatel09/image-de-photobombing-benchmark-dpd-300-dataset">here </a>
 # Architecture
 The U-Net architecture was used for this task. U-Net is a convolutional neural network (CNN) designed for image segmentation and restoration tasks. It consists of:
 Encoder: A series of convolutional and max-pooling layers to extract features.
