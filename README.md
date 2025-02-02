@@ -16,7 +16,9 @@ Decoder: A series of upsampling and convolutional layers to reconstruct the imag
 Skip Connections: Connections between encoder and decoder layers to preserve spatial information.
 for training the original images and binary masks were stacked together such that the input to the unet model had 4 channels. another approach would be to predict both the reconstructed images and the binary mask. however the former approach worked better. The model was trained using Mean Squared Error (MSE) loss to minimize the difference between the predicted and ground truth images.
 # Results
-Input (Photobombed Image) - 
-<img src = "">
-output (debombed Image) -
-<img src = "">
+Input (Photobombed Image) - <br>
+<img src = "Images/original.jpg"><br>
+output (debombed Image) -<br>
+<img src = "Images/prediction.jpg">
+ground truth - <br>
+<img src = "Images/gt.jpg">
