@@ -19,6 +19,6 @@ for training the original images and binary masks were stacked together such tha
 Input (Photobombed Image) - <br>
 <img src = "Images/original.jpg"><br>
 output (debombed Image) -<br>
-<img src = "Images/prediction.jpg">
+<img src = "Images/prediction.jpg"><br>
 ground truth - <br>
 <img src = "Images/gt.jpg">
